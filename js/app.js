@@ -7,6 +7,8 @@ Array.prototype.pick = function() {
   return this[Math.floor(Math.random()*this.length)];
 };
 
+// NOUN, VERB, ADJ are what you expect
+// NOUNP = plural noun, VERBP = 'plural' verb (shoots instead of shoot)
 var aph = [
   'NOUNP VERB Everything Around Me',
   'gotta keep it ADJ',
